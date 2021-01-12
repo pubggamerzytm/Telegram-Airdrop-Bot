@@ -8,8 +8,8 @@
 airdrop_live = True
 
 # Telegram
-token           = '1309504600:AAEeBquYnfrdKOqGd_1kBUwsPengw42bTHo'        # More: https://core.telegram.org/bots#3-how-do-i-create-a-bot
-log_channel     = 0                         # Channel ID. Example: -1001355597767
+token           = '1309504600:AAEeBquYnfrdKOqGd_1kBUwsPengw42bTHo' # More: https://core.telegram.org/bots#3-how-do-i-create-a-bot
+log_channel     = @Atrontokenbotpayouts                       # Channel ID. Example: -1001355597767
 admins          = []                        # Telegram User ID's. Admins are able to execute command "/airdroplist"
 airdrop_cap     = 100                       # Max airdrop submissions that are being accepted
 
@@ -17,7 +17,7 @@ airdrop_cap     = 100                       # Max airdrop submissions that are b
 mysql_host = 'localhost'
 mysql_db   = 'TelegramAirdropBot'
 mysql_user = 'abuser'
-mysql_pw   = '<YOUR PASSWORD>'
+mysql_pw   = 'pubgwali'
 
 texts = {
     'start_1': 'Hi {} and welcome to our Airdrop!\n\nGet started by clicking the button below.\n\n',
