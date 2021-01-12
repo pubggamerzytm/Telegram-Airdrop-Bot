@@ -15,15 +15,7 @@ from time import gmtime, strftime
 
 bot = telebot.TeleBot(config.token)
         
-def get_connection():
-    connection = pymysql.connect(host=config.mysql_host,
-                                 user=config.mysql_user,
-                                 password=config.mysql_pw,
-                                 db=config.mysql_db,
-                                 charset='utf8mb4',
-                                 cursorclass=pymysql.cursors.DictCursor,
-                                 autocommit=True)
-    return connection
+
 
 def get_airdrop_wallets():
     connection = get_connection()
