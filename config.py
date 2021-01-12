@@ -13,11 +13,7 @@ log_channel     = '-412534591'                # Channel ID. Example: -1001355597
 admins          = []                        # Telegram User ID's. Admins are able to execute command "/airdroplist"
 airdrop_cap     = 100                       # Max airdrop submissions that are being accepted
 
-# MySQL Database
-mysql_host = 'localhost'
-mysql_db   = 'TelegramAirdropBot'
-mysql_user = 'abuser'
-mysql_pw   = 'pubgwali'
+
 
 texts = {
     'start_1': 'Hi {} and welcome to our Airdrop!\n\nGet started by clicking the button below.\n\n',
